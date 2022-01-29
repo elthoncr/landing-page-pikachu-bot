@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font: 100%;
+}
+
+.fundo {
+  background: linear-gradient(68.15deg, #7e07f2 16.62%, #0761e8 85.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.cabecalho-imagem {
+  height: 72px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.cabecalho-item {
+  font-family: 'Sarala', sans-serif;
+  color: black;
+}
+
+.conteudo-principal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 24px;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #fff2e7;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ecd6c4;
+}
+
+.conteudo-principal-botao {
+  background-color: #ecd6c4;
+  width: 185px;
+  height: 67px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2f2325;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.conteudo-secundario-titulo {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff2e7;
+  border-top: #ecd6c4;
+  border-style: ridge;
+  padding: 30px;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff2e7;
+}
+
+.rodape {
+  font-family: 'Sarala', sans-serif;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #fddd4a;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+
+.rodape-imagem {
+  background-repeat: no-repeat;
+  background-size: 10%;
+  height: 80px;
+  padding: 19px;
+}
+
+h4 {
+  font-family: 'Righteous', cursive;
+}
